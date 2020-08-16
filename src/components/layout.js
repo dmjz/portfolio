@@ -25,19 +25,28 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1200,
           padding: `0 1.0875rem 1.45rem`,
+          paddingLeft: '2rem',
+          paddingRight: '2rem',
+          fontFamily: 'Josefin Sans',
+          backgroundColor: '#eddbb7',
         }}
       >
         <main>{children}</main>
+
+        <hr></hr>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {` `} 
+          and
+          {` `}
+          <a href="https://bulma.io/">Bulma</a>
         </footer>
       </div>
     </>

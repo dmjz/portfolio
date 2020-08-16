@@ -1,0 +1,21 @@
+body {
+    background-color: #e8d1a5;
+}
+
+.header-color {
+    color: #ab3334;
+}
+.header-shadow {
+    text-shadow: -2px -2px 2px #d1bb92;
+}
+
+a {
+    color: #ab3334 !important;
+}
+a:hover, a:focus {
+    color: #33191a !important;
+}
+
+hr {
+    background-color: #33191a !important;
+}
