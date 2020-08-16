@@ -115,7 +115,7 @@ export const imageFragment = graphql`
   fragment imageFragment on File {
     childImageSharp {
       fluid(maxHeight: 800, quality: 100) {
-        ...GatsbyImageSharpFluid
+        ...GatsbyImageSharpFluid_noBase64
       }
     }
   }
