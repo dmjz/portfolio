@@ -1,5 +1,6 @@
 body {
-    background-color: #e8d1a5;
+    /* background-color: #e8d1a5; */
+    background: repeating-linear-gradient( 45deg, #e8d1a5 0px, #e8d1a5 5px, #E2C48D 6px, #E2C48D 11px, #e8d1a5 12px);
 }
 
 .header-color {
