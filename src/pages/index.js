@@ -28,7 +28,7 @@ const IndexPage = ({ data }) => (
 
     <div className="column" style={{ marginTop: "3rem", marginBottom: "4rem" }}>
       <h1 style={{ fontSize: "4rem", marginBottom: "1rem", fontFamily: "Alegreya Sans SC" }} className="header-color header-shadow">About</h1>
-      <p style={{ fontSize: "2rem" }}>Quantitative analyst, computer programmer, web developer, math enthusiast</p>
+      <p style={{ fontSize: "2rem" }}>Quantitative analyst, Python/JavaScript developer, math nerd</p>
     </div>
 
     <div className="column">
