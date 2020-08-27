@@ -20,3 +20,9 @@ a:hover, a:focus {
 hr {
     background-color: #33191a !important;
 }
+
+.project-links {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+}
