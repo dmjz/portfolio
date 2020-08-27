@@ -20,7 +20,11 @@ const Project = (props) => (
         />
       </div>
       <div className="column">
-        <a href={props.link}>
+        <a href={
+          props.websiteLink
+            ? props.websiteLink
+            : props.githubLink
+        }>
           <h1 
             style={{ 
               fontSize: "3rem", 
