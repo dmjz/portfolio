@@ -40,14 +40,15 @@ const IndexPage = ({ data }) => (
       name="Studious"
       description="Studious is a platform for creating, reviewing, and sharing lessons which implements a Spaced Repetition System for efficient learning.
       Built with Django, PostgreSQL, and pure JavaScript."
-      link="https://studious-carrot.herokuapp.com/"
+      websiteLink="https://studious-carrot.herokuapp.com/"
+      githubLink="https://github.com/dmjz/studious"
     />
     <Project 
       image={ data.projectImageGallery.childImageSharp.fluid }
       name="Gallery"
       description="A Python image browser built with PySimpleGUI. 
       This provides large thumbnails and simple batch editing options like rescaling, sorting, selecting, and moving files that make it faster and easier to do common tasks."
-      link="https://github.com/dmjz/gallery"
+      githubLink="https://github.com/dmjz/gallery"
     />
     <Project 
       image={ data.projectImageBots.childImageSharp.fluid }
@@ -55,55 +56,56 @@ const IndexPage = ({ data }) => (
       description='A collection of botting programs for the video game Old School RuneScape. These are "color bots" 
       which read and search the game canvas and interact using human-like mouse and keyboard inputs. 
       Built in Python using PyAutoGui, PIL and Tkinter.'
-      link="https://github.com/dmjz/osrs"
+      githubLink="https://github.com/dmjz/osrs"
     />
     <Project 
       image={ data.projectImageNotebooks.childImageSharp.fluid }
       name="Notebooks"
       description="A collection of mathematical Jupyter notebooks exploring Cayley graphs and group theory,
       Monte Carlo methods, and fast multiplication algorithms."
-      link="https://github.com/dmjz/notebooks"
+      githubLink="https://github.com/dmjz/notebooks"
     />
     <Project 
       image={ data.projectImageNightlife.childImageSharp.fluid }
       name="Nightlife"
       description="Search for local bars, restaurants, and more and see where everyone else is going. 
       Built with Node/Express and integrated with Twitter for authentication and Yelp to search local venues."
-      link="https://night-life-djmot.herokuapp.com/"
+      websiteLink="https://night-life-djmot.herokuapp.com/"
+      githubLink="https://github.com/dmjz/night-life"
     />
     <Project 
       image={ data.projectImageBLP.childImageSharp.fluid }
       name="Black-Litterman portfolio optimization"
       description="A Python implementation of the Black-Litterman model. Combine historical data with the user's
       expectations about future returns to estimate an optimal portfolio in a set of asset classes."
-      link="https://github.com/dmjz/BLP"
+      githubLink="https://github.com/dmjz/BLP"
     />
     <Project 
       image={ data.projectImageTextAnalysis.childImageSharp.fluid }
       name="Natural language processing of SEC filings"
       description="In this project we use word embedding to produce features from the natural language content of SEC filings and test the effect of these features on stock price movement. 
       We use Python for web scraping, topic analysis, and data visualization, and PyTorch to build and train a neural network for word embedding."
-      link="https://github.com/dmjz/sec-embed"
+      githubLink="https://github.com/dmjz/sec-embed"
     />
     <Project 
       image={ data.projectImageLife.childImageSharp.fluid }
       name="React Game of Life"
       description="An implementation of Conway's Game of Life using React. Pause the game, create a new pattern, and see how it evolves."
-      link="https://codepen.io/djmot/full/gLObxz/"
+      websiteLink="https://codepen.io/djmot/full/gLObxz/"
     />
     <Project 
       image={ data.projectImageEmbeddings.childImageSharp.fluid }
       name="Orientable embeddings of Cayley graphs"
       description="Compute and count distinct embeddings of a given Cayley graph in the orientable surface of genus k.
       Implements an algorithm developed in my Master's thesis."
-      link="https://github.com/dmjz/orientable-embeddings"
+      githubLink="https://github.com/dmjz/orientable-embeddings"
     />
     <Project 
       image={ data.projectImageCayleyGraphs.childImageSharp.fluid }
       name="Cayley graphs of Burnside groups"
       description="An algorithm to construct the Cayley graph for the Burnside groups B(2,n).
       For example, the image shows the graph of B(2,3), a group of order 27."
-      link="https://github.com/dmjz/burnside-graphs"
+      githubLink="https://github.com/dmjz/burnside-graphs"
     />
 
   </Layout>
