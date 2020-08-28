@@ -2,11 +2,8 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const ProjectLink = (props) => (
-  <a href={props.link}>
-    <i className={`${props.iconClass} mr-5`} style={{ fontSize: "2.3rem"}}></i>
-  </a>
-)
+import ProjectLink from "./project_link.js"
+
 
 const Project = (props) => (
   <div className="columns is-vcentered is-variable is-8" style={{ marginBottom: "4rem" }}>
